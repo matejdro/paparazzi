@@ -49,8 +49,6 @@ dependencies {
   implementation libs.moshi.core
   implementation libs.moshi.adapters
   kapt libs.moshi.kotlinCodegen
-  implementation libs.jcodec.core
-  implementation libs.jcodec.javase
   implementation projects.paparazziAgent
 
   def osName = System.getProperty("os.name").toLowerCase(Locale.US)
